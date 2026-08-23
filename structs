@@ -1,0 +1,20 @@
+package main
+
+import "fmt"
+
+type payment struct{}
+
+func (p payment) makePayment(amount float32) {
+ razorPayPayment := razorPay{}
+}
+
+type razorPay struct {
+}
+
+func (r razorPay) pay(amount float32) {
+	fmt.Println("razor pay", amount)
+}
+
+func main() {
+
+}
